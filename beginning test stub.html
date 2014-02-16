@@ -1,0 +1,15 @@
+<html>
+  <head>
+    <script src="/resources/testharness.js"></script>
+    <script srv="/resources/testharnessreport.js"></script>
+    <title>Working title: Weird text/css vs css/text bug in Chrome</title>
+  </head>
+
+  <body>
+    <script>
+      test(function () {
+        assert_true("what I'm asserting");
+      }, "CSS won't load in Firefox as css/text");
+    </script>
+  </body>
+</html>
